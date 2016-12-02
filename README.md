@@ -21,4 +21,4 @@ Juniper SKYATP API Test App
 git clone https://github.com/GonzOne/sky_atp.git
 npm install # install node packages
 bower install # install bower packages
-gulp --cordova 'prepare' # install Cordova platforms and plugins
+gulp serve # to launch a browser sync server on your source files
