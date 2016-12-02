@@ -6,8 +6,8 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController() {
-    //var vm = this;
-
+  function MainController(SkyAtpAPI) {
+    var vm = this;
+    vm.test = SkyAtpAPI.InfectedCategories.get({id: 1});
   }
 })();
